@@ -1,0 +1,46 @@
+/*
+COULEUR
+Noir/gris :#323746
+Blanc neige : #fcfcf7
+Vert :#6dae97
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+a,
+a:visited {
+    color: #fcfcf7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #6dae97;
+}
+
+/**navbar*/
+
+nav{
+    background:#323746;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: calc(0.5rem+1.5vw);
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#icons{
+    cursor: pointer;
+    display: none;
+}
